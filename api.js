@@ -25,7 +25,7 @@ if(process.env.FRONTEND_URL){
 //endpoint de bienvenida
 app.get("/", (req, res) => {
     res.json({
-        mensaje: "Bienvenido a la API, version 2",
+        mensaje: "Aplicacion de laboratorio de desarolllo, version 3",
         entorno: NODE_ENV
     });
 });
